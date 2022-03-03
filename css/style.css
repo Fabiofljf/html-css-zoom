@@ -65,9 +65,8 @@ img {
 
 .foto {
     width: calc(100vw / 7);
-    height: calc((100vh - 100px) / 5);
+    height: calc((100% - 100px) / 5);
     background-image: url("https://picsum.photos/seed/picsum/200/300");
-    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
