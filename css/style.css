@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+img {
+    max-width: 100%;
+}
+
 
 /************* UTILITY  *************/
 
@@ -22,6 +26,14 @@
 
 .just_center {
     justify-content: center;
+}
+
+.just_end {
+    justify-content: flex-end;
+}
+
+.a-i_center {
+    align-items: center;
 }
 
 .a-s_center {
@@ -54,8 +66,7 @@
 .foto {
     width: calc(100vw / 7);
     height: calc((100vh - 100px) / 5);
-    background-color: red;
-    border: 1px solid black;
+    background-image: url("https://picsum.photos/seed/picsum/200/300");
 }
 
 
@@ -63,12 +74,12 @@
 
 .barra {
     height: 100px;
+    background-color: #222222;
 }
 
 div[class^="col"] {
     height: 100px;
-    background-color: green;
-    border: 1px solid black;
+    background-color: #222222;
 }
 
 div[class^="col_"] {
@@ -100,4 +111,10 @@ h6 {
 }
 
 
-/* col_sx */
+/* col_dx */
+
+.col_dx h5 {
+    color: red;
+    padding: 42px;
+    background-color: #4A4A4A;
+}
