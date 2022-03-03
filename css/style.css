@@ -16,8 +16,32 @@
     flex-wrap: wrap;
 }
 
+.flex_column {
+    flex-direction: column;
+}
+
+.just_center {
+    justify-content: center;
+}
+
 .a-s_center {
     align-self: center;
+}
+
+.pd-lf_10 {
+    padding-left: 10px;
+}
+
+.gap_5 {
+    gap: 5px;
+}
+
+.gap_10 {
+    gap: 10px;
+}
+
+.gap_16 {
+    gap: 16px;
 }
 
 
@@ -25,7 +49,6 @@
 
 .schermo {
     height: calc(100vh - 100px);
-    flex
 }
 
 .foto {
@@ -78,23 +101,3 @@ h6 {
 
 
 /* col_sx */
-
-.pd-lf_10 {
-    padding-left: 10px;
-}
-
-.gap_16 {
-    gap: 16px;
-}
-
-.gap_12 {
-    gap: 12px;
-}
-
-.gap_10 {
-    gap: 10px;
-}
-
-.flex_column {
-    flex-direction: column;
-}
