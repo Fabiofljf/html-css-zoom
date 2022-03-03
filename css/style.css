@@ -16,6 +16,10 @@
     flex-wrap: wrap;
 }
 
+.a-s_center {
+    align-self: center;
+}
+
 
 /************* MAIN  *************/
 
@@ -30,6 +34,9 @@
     background-color: red;
     border: 1px solid black;
 }
+
+
+/* barra */
 
 .barra {
     height: 100px;
@@ -47,4 +54,47 @@ div[class^="col_"] {
 
 .col {
     width: calc(100vw - 40vw);
+}
+
+i {
+    align-self: center;
+    color: white;
+    font-size: 2rem;
+}
+
+h6 {
+    color: white;
+    font-size: 0.8rem;
+}
+
+.arrow {
+    align-self: center;
+}
+
+.arrow>i {
+    color: white;
+    font-size: 0.8rem;
+}
+
+
+/* col_sx */
+
+.pd-lf_10 {
+    padding-left: 10px;
+}
+
+.gap_16 {
+    gap: 16px;
+}
+
+.gap_12 {
+    gap: 12px;
+}
+
+.gap_10 {
+    gap: 10px;
+}
+
+.flex_column {
+    flex-direction: column;
 }
