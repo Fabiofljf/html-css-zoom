@@ -60,13 +60,13 @@ img {
 /************* MAIN  *************/
 
 .schermo {
-    height: 100vh;
+    height: calc(100vh - 100px);
 }
 
 .foto {
     width: calc(100vw / 7);
-    height: calc((100% - 100px) / 5);
-    background-image: url("https://picsum.photos/seed/picsum/200/300");
+    height: calc((100vh - 100px) / 5);
+    background-image: url("../img/866-536x354.jpeg");
     background-position: center;
     background-size: cover;
 }
