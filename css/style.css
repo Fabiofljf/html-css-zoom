@@ -1,0 +1,50 @@
+/************* COMMONS ROULES  *************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/************* UTILITY  *************/
+
+:root {}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/************* MAIN  *************/
+
+.schermo {
+    height: calc(100vh - 100px);
+    flex
+}
+
+.foto {
+    width: calc(100vw / 7);
+    height: calc((100vh - 100px) / 5);
+    background-color: red;
+    border: 1px solid black;
+}
+
+.barra {
+    height: 100px;
+}
+
+div[class^="col"] {
+    height: 100px;
+    background-color: green;
+    border: 1px solid black;
+}
+
+div[class^="col_"] {
+    width: calc((100vw - 60vw) / 2);
+}
+
+.col {
+    width: calc(100vw - 40vw);
+}
